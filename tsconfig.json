@@ -1,0 +1,8 @@
+{
+   "compilerOptions": {
+      "paths": {
+         "@repo/ui": ["./packages/ui/src/index.ts"],
+         "@repo/core": ["./packages/core/src/index.ts"],
+      }
+   }
+}

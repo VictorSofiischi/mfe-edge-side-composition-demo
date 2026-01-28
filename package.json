@@ -1,0 +1,21 @@
+{
+  "name": "mfe-reactRouter-edge-side-composition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:j1": "JURISDICTION=jurisdiction1 turbo run dev",
+    "dev:j2": "JURISDICTION=jurisdiction2 turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "pnpm@10.6.2"
+}

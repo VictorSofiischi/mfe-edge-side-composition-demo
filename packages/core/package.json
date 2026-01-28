@@ -1,0 +1,27 @@
+{
+  "name": "@repo/core",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "biome lint .",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^19.2.3",
+    "jsdom": "^25.0.1",
+    "react": "^19.2.0",
+    "typescript": "~5.9.3",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
